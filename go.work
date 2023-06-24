@@ -6,4 +6,5 @@ use (
 	./variables
 	./constants
 	./functions
+	./increment
 )
