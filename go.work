@@ -5,4 +5,5 @@ use (
 	./wagsline
 	./variables
 	./constants
+	./functions
 )
