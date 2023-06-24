@@ -4,4 +4,5 @@ use (
 	./hello-world
 	./wagsline
 	./variables
+	./constants
 )
