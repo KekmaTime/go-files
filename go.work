@@ -11,4 +11,5 @@ use (
 	./messagetoSend
 	./messagetoSend2
 	./embedded-structs
+	./authInfo
 )
