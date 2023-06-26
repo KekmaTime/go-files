@@ -10,4 +10,5 @@ use (
 	./ageuntilevents
 	./messagetoSend
 	./messagetoSend2
+	./embedded-structs
 )
