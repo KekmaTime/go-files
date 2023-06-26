@@ -4,7 +4,7 @@ just like rustprogess, this is a learning repo only
 - [x] Introduction
 - [x] Variables
 - [x] Functions
-- [ ] Structs
+- [x] Structs
 - [ ] Interfaces
 - [ ] Errors
 - [ ] Loops
