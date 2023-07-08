@@ -12,4 +12,5 @@ use (
 	./messagetoSend2
 	./embedded-structs
 	./authInfo
+	./interfaces
 )
