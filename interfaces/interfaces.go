@@ -17,6 +17,10 @@ type Audi struct {
 	fuel     float64
 }
 
+func (b BMW) AverageSpeed() string {
+	return b.avgspeed
+}
+
 func (b BMW) Mileage() float64 {
 	return b.distance / b.fuel
 }
@@ -25,12 +29,9 @@ func (a Audi) Mileage() float64 {
 	return a.distance / a.fuel
 }
 
-func totalMileage(m []MotorVehicle) {
-	tm := 0.0
-	for _, v := range m {
-		tm = tm + v.Mileage()
-	}
-	fmt.Printf("Total mileage per month %f km/l", tm)
+func totalMileage(m MotorVehicle) {
+	au := m.(BMW)
+	fmt.Printf(au.AverageSpeed())
 }
 
 func main() {
@@ -39,12 +40,5 @@ func main() {
 		fuel:     36,
 		avgspeed: "58",
 	}
-
-	a1 := Audi{
-		distance: 152.9,
-		fuel:     30,
-	}
-
-	person := []MotorVehicle{b1, a1}
-	totalMileage(person)
+	totalMileage(b1)
 }
