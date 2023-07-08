@@ -13,4 +13,5 @@ use (
 	./embedded-structs
 	./authInfo
 	./interfaces
+	./empty-interface
 )
